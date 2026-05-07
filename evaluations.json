@@ -1,0 +1,787 @@
+[
+    {
+        "user_id": "win_conda_user_01",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Error: The sentence structure is abrupt and the two short sentences don't follow a natural flow. \nPolished: Hi, I'm going to take a bath, so I'll be right back in about five minutes.\n\nError: No apostrophe is added to the word 'I'm', which makes the sentence informal or awkward for formal situations.\nPolished: (The previous version has handled this informal usage already.)\n\nAlternatively, a more conversational tone may be preferred: \nError: The first sentence is cut short; it starts with a formal greeting but is followed by informal phrasing that omits 'hello' as in the first part of the sentence.\nPolished: Hi, I'm going to take a bath. I'll be back in about five minutes."
+    },
+    {
+        "user_id": "win_conda_user_01",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi, how are you? | AI: I'm great, thanks. Just getting some work done before my break."
+    },
+    {
+        "user_id": "win_conda_user_01",
+        "module": "AI Chat",
+        "extracted_facts": "User: Oh, do you take breaks? | AI: Yes, I try to take short breaks regularly to stay refreshed and focused."
+    },
+    {
+        "user_id": "win_conda_user_01",
+        "module": "Assessment",
+        "extracted_facts": "User said: Hey, I don't know what to do. Tell me some interesting things to do while I'm free. | Evaluation: Based on your English proficiency, here's a brief analysis:\n- Vocabulary: You use everyday language and basic phrases. Your vocabulary is sufficient for casual conversations, but it may lack in depth or complexity for more abstract or specialized topics.\n- Grammar: Your sentence structure and grammar are mostly correct, indicating a strong foundation in the basics of the English language.\n- Confidence: Your sentences seem straightforward, but with a hint of uncertainty, suggesting some hesitation in expressing yourself fluently.\n\nSome interesting things to do while you're free include:\n- Explore local museums or art galleries to learn about history, culture, and art.\n- Try a new outdoor activity such as hiking, rock climbing, or kayaking to experience nature and challenge yourself.\n- Plan a trip to a nearby city or a new state to discover new places and experiences.\n- Learn a new skill or hobby, such as playing a musical instrument, cooking, or dancing, to keep your mind engaged and creative.\n- Read a book or watch a documentary on a topic that interests you, expanding your knowledge and perspectives.\n\nRemember, there's always something interesting to explore and discover when you're open to new experiences and have a willingness to learn!"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi, how are you? Is everything fine? Or you need any assistance for me? Hello. | AI: I'm doing great, thanks for asking. I'm here to assist you, so feel free to ask about anything, including your English lessons."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi, how are you? | AI: I'm doing great, thanks for asking. How about you, are you here for English lessons or do you have something else on your mind?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hey, how are you? | AI: I'm doing great, thanks for asking. What brings you here today, do you need help with English lessons?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi, how are you? | AI: I'm doing great, thanks for asking. Is there something I can help you with, perhaps some English practice or questions?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hey, how are you? | AI: I'm doing great, thanks. Let's get started on your English lessons."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Yeah, there's an interviewer and ask me some interview questions, that's it. | AI: Go ahead and act as yourself in a job interview. I'll take on the role of the interviewer, and ask you questions. Don't worry, it's a simulated environment. Remember, the goal is to practice and improve your English skills. Let's get started. Can you start by telling me a little bit about yourself and why you're the best fit for this job?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Error: Repetition - The phrase 'I'm your host' is repeated, creating unnecessary emphasis.\n\nPolished: Hello, I'm your host.\n\nAlternatively, for a more complete introduction, you could modify the sentence to:\n\nPolished: Hello, I'm your host for today's event, and I'll be guiding you through it."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hey, hey, how are you? | AI: I'm doing great, thanks for asking. I'm here to assist you with your English lessons, so what would you like to work on today?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hey, how are you? | AI: I'm doing great, thanks for asking. Let's get started on some English practice, shall we?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: yeah, play role play suggest me one role for me and take one role for you then we can start the communication | AI: Let's play a role-play simulation.\n\nI'll be the \"Restaurant Manager\" and you can be the \"Job Applicant\" looking for a position at our restaurant. We'll have a mock job interview to practice your English speaking skills.\n\nAre you ready to start?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: yeah I'm ready let's get started | AI: Let's get started with the role-play. You're applying for a server position at our restaurant, and we'll go through a mock interview to assess your communication skills and personality. \n\nNow, can you start by telling me a little bit about yourself and why you think you'd be a great fit for a server position at our restaurant?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Yeah, I am Hariv Nishan from Vaisak. I think I will be a great fit for your position. Because recently I worked on a restaurant which is, which role is absolutely fits for this position. So, and I will be very fast and my memory is I can remember things many so even more customers order the things I can serve them whatever they ask. | AI: Nice to meet you, Hariv. I'm glad to hear you have experience in the restaurant industry. Can you tell me more about your previous experience and what you enjoyed most about your role?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Yeah, I enjoyed a lot showing to the users. | AI: Showing customers a good service is important. Can you tell me about a time when you had to handle a difficult customer, and how you resolved the issue?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Wait, I will tell you a story. Just please repeat it. | AI: You'd like to tell me a story, and then I can summarize or repeat it back to you to help with fluency practice? Go ahead and share your story, and I'll do my best to repeat it back to you."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: The cracked pot is a tale of purpose. Where a water bearer has two pots, one perfect, one cracked. The cracked pot leaks half its water on the long walk home, feeling ashamed. Eventually, the pot applaises for its flower. The bearer smiles, revealing that flowers only grieve on the cracked side of the path. You are chewed by its leakage, highlighting that our flowers can bring beauty. The bearer told the pot, did you notice that there were flowers only on your side of the path, but not on the other side, other pot's side. That's because I have always known about your flower and I took advantage of it. I planted flower seeds on your side of the path and every day while we walk back from the stream, you have watered them. For two years, I have been able to pick these beautiful flowers to decorate my table. without you being just the way you are, there will not be this beauty to grace my house. | AI: That's a lovely story, Hariv. Let me try to summarize it back to you. \"The cracked pot is a story about a water bearer who has two pots, one perfect and one cracked. Due to its leak, the cracked pot unknowingly waters flowers on the side of the path, creating beauty that the bearer can appreciate.\""
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Error: Inconsistent capitalization. \nPolished: Ephemeral is a word, and pharaderm is also a word.\n\nError: Comma splice error (using comma without conjunction between two independent clauses). \nPolished: Ephemeral is a word, and pharaderm is also a word.\n\nAlternatively, a comma might be used followed by a conjunction for better readability: \nEphemeral is a word, but pharaderm is a word."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Error: The sentence starts with an informal expression \"Umm...\", which is not suitable for formal communication. Polished: We use pots to store our code.\n\nAlternatively: \nError: Using \"pots\" to store code is unclear without context. Polished: We utilize containers to store our code.\n\nIf a more literal interpretation is what the sentence intends: \nError: Using pots to store code might sound absurd and seems out of place in a coding context. \nPolished: We have been using unconventional materials (pots) for a creative storage project unrelated to coding. \n\nHowever, the most likely interpretation for a coding context is the first suggestion, using a more general term for storage rather than \"pots\"."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hey, how are you? | AI: I'm doing great, thanks for asking. I'm here to assist you with your English lessons, so what would you like to work on today?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: okay i will take the story you will conclude it in a simple way okay | AI: Let's move forward with the mock interview. \n\nAs the Restaurant Manager, I'd like to ask you a few more questions. Can you tell me about a time when you went above and beyond to provide excellent service to a customer?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Are you ready to listen the story? | AI: Please go ahead and continue with the story, Hariv. I'll try to keep a summary of it, and we can keep practicing your English skills."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hey, are you ready to listen the story? | AI: Yes, I'm ready. Please go ahead and continue with the story, and I'll summarize it back to you to help with your English practice."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: One time a farmer and his wife lived in a small village. They were very poor but worked hard. One day they brought a goose from the market. The next morning they were shocked to find that the goose had laid a shimmering solid gold egg. The farmer sold the egg for a high price and they were able to buy food and supplies. Every morning the goose laid another golden egg and the couple soon became very wealthy. However, as the farmer got rich, he also got greedy. He thought, why should I wait for the only one egg every day? Inside the goose, there must be hundreds of golden eggs. He decided to cut off the goose open to get all the golden at once. He told his wife his plan. She warned him not to be greedy, but he didn't listen. He took a knife and killed the goose. When he opened the goose, he found no gold at all. The inside was just like any other normal goose. The farmer cried, Oh no, what have I done? Because of his greed, he lost the special goods and all the future golden eggs. | AI: Here's a 1-2 sentence summary of the story: A farmer and his wife were extremely wealthy after their goose laid golden eggs every morning, but the farmer's greed led him to cut open the goose, only to find it contained no gold, resulting in the loss of their fortune.\n\nCan you now think about a time when you had to balance personal desires with the potential consequences of your actions?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hey, how are you? | AI: I'm doing great, thanks for asking. What brings you here today?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hey, let's start role play. Suggest me one role for me and take one role for you and let's get conversation start. | AI: Let's play a role-play simulation.\n\nI'll be the \"Sales Manager\" at a tech company, and you can be the \"Prospective Customer\" interested in purchasing our latest software product. We'll have a mock conversation to practice your English speaking skills.\n\nAre you ready to start?\n\n(Note: Feel free to respond as you would in a real conversation. Don't worry about making mistakes \u2013 it's all about practicing and improving your English skills!)"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Okay, tell me about your software product, how it will be beneficial for me. | AI: Our latest software product, \"EcoSync,\" is a cutting-edge automation tool that streamlines business operations, increases efficiency, and reduces costs. It can help you optimize your workflow, making it easier to manage your resources and make data-driven decisions.\n\nNow, can you tell me a little bit about your company and how you think EcoSync could benefit your specific needs?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: \u00dea\u00f0 er hva\u00f0 er \u00fea\u00f0? | AI: That's Icelandic! You said \"\u00dea\u00f0 er hva\u00f0 er \u00fea\u00f0?\" which roughly translates to \"What is that?\" in English.\n\nIf you'd like to continue the role-play, I can respond in character as the Sales Manager. Let's get back to discussing the EcoSync software and how it can benefit your company."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Continue the role of the game. Actually what I am saying means... Actually I am saying general greetings to you. Try to listen my voice. | AI: You're saying general greetings like \"hello\" or \"hi\" to me, but I didn't quite catch the tone or inflection. Let me try to listen more carefully. Go ahead and say something, and I'll do my best to respond in a way that simulates a real conversation."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Okay | AI: It seems like you're saying something, but I had a bit of trouble understanding. Could you say it again a bit louder or more clearly?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: \u306f\u3044\u3001\u3067\u3059\u3002 | AI: I didn't quite catch that either. Can you say it again a bit more clearly, or would you like to try a different sentence? I'm here to listen and help you practice your English skills."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: You practice your Yeah, hi, how are you? What can I do for you? | AI: It's great that you're practicing your English skills. \n\nLet me try to respond as a customer in a polite and friendly manner:\n\nHi, how are you? I'm looking for a specific type of gift. Could I ask you where the gift section is located in the store?\n\nNow, it's your turn! You can respond as the store employee, and I'll practice my \"Yeah, hi, how are you? What can I do for you?\" line. \n\n(Note: Please respond in a way that simulates a real conversation, and feel free to correct me if I make any mistakes.)"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: employee and I | AI: Let's continue the conversation.\n\nI'll respond as the employee:\n\nHi, welcome to our store! I'm happy to help you find the gift section. It's actually just down that aisle, second door on your left.\n\nNow it's your turn, you can respond as me, the customer, inquiring about the gift section."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: actually just hi ma'am I think you need some gifts from our gift store yeah go to strike for what and in front of you there is a gift sections are available try to collect the gift what you need from there | AI: I think I caught a bit of your response, but it's not entirely clear. Let me try to clarify and respond as the customer.\n\nYou said \"Hi ma'am\" which is a polite greeting. However, the rest of the sentence was a bit choppy. Here's a possible interpretation:\n\n\"Hi ma'am, I think you need some gifts from our gift store. Yeah, go straight for what and in front of you, there is a gift section available.\"\n\nCould you clarify or rephrase that sentence, please?\n\n(If you'd like, we can start the conversation from the beginning, and I can respond as the employee again.)"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi, what can I do for you? What do you need from this store? | AI: It seems like you're restating your greeting in a more direct way. Here's a possible response as the employee:\n\n\"We actually have a wide range of products in store, but I'd be happy to help you find something specific. What kind of gift are you looking for today?\""
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Again we can restart the seeing arrow. Give me a sortable roll for me and take one sortable roll for you. We will restart this conservation again. | AI: Let's start fresh.\n\nI'll be the \"Job Interviewer\" and you can be the \"Job Applicant\" seeking a position with our company.\n\nAre you ready to begin the mock interview? We'll go through a simulated conversation to practice your English skills.\n\nOnce you're ready, I can ask you a few questions to get us started."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Yeah, I am always ready. Try to ask me questions. | AI: Let's start the mock interview. Can you tell me a little bit about your background and how you think your skills and experience make you a good fit for this position?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Actually I am a confident public speaker. I am capable of speaking about anything in front of people. I have lot of experience in public speaking and expressing anything in front of people. and my skills are strong communication skills and ability to do anything with the alphop ai tools and guiding ai tools to perform their tasks | AI: It seems like you're highlighting your confidence as a public speaker and your technical skills with AI tools. However, let me try to rephrase your answer in a more concise and clear way:\n\n\"I'm a confident public speaker with extensive experience in expressing myself in front of audiences. I possess strong communication skills and have proficiency in leveraging AI tools to guide and perform tasks.\"\n\nTo better simulate a real interview, let's keep the conversation flowing. Can you tell me about a time when you had to communicate complex information to a group of people or stakeholders?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: In recent times, I need to explain about my tool in front of so many people. So for that time, I need to explain my tool functionality in front of 200 people. Ok, lot of students and teachers are engaging with my words. on that time I am telling the information about the tool in front of the people I am giving right directions how to use and how to utilize the tool I | AI: It sounds like you had a significant presentation experience explaining your tool to a large audience of 200 people, comprising students and teachers. You effectively communicated the tool's functionality and provided clear directions on how to use and utilize it.\n\nTo continue the conversation, can you tell me how you handled any questions or challenges that arose during the presentation, particularly from the audience members who might have been unsure or skeptical about the tool's capabilities?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: particularly | AI: It sounds like you're using the word \"particularly\" correctly. \"Particularly\" is an adverb that means to a considerable degree or in a notable way. You might use it in a sentence like this: \"I particularly enjoyed the part of the presentation where you explained the tool's benefits in detail.\"\n\nFor example, in the context of our mock interview, you could respond to the question about handling questions and challenges with a sentence like this:\n\n\"I particularly focused on addressing the questions from the audience members who were skeptical about the tool's capabilities, providing detailed explanations and examples to help them understand its value.\"\n\nLet's keep the conversation going."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Actually, I am the human in the loop while building the... | AI: ...machine learning model, ensuring that the system is fair, transparent, and accountable. Can you tell me more about your experience in data annotation and how you validate the model's performance?\n\n(Also, just a minor point, I noticed you started with \"Actually...\" again. Don't worry about it, but just a heads-up that we can try to mix up our language a bit more to make the conversation feel more natural.)"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi, how are you? | AI: I'm doing great, thanks for asking. I'm here to assist you with your English lessons, so what would you like to work on today?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: I need simple assistance from you. | AI: What can I help you with today?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: I need to give a presentation in the classroom. So try to give me ideas. How can I perform in front of my friends? | AI: Giving a presentation in front of your friends can be a bit nerve-wracking, but with some preparation and practice, you'll do great. Here are some ideas to help you prepare and perform confidently:\n\n**1. Prepare your material:**\nMake sure you have a clear topic, and a concise and engaging presentation. You can use visual aids like slides, handouts, or even a video presentation. Keep your slides simple, with minimal text and plenty of pictures or diagrams.\n\n**2. Rehearse in front of a mirror:**\nPractice your presentation in front of a mirror to get a sense of how you look and sound when you're presenting. This will also help you identify any body language issues, such as fidgeting or not maintaining eye contact.\n\n**3. Record yourself:**\nRecord your presentation to identify areas for improvement. Watch the video and take note of your tone, pace, and body language. You can even ask a teacher or a friend to give you feedback.\n\n**4. Use positive self-talk:**\nBefore your presentation, remind yourself that you're well-prepared and capable. Repeat positive affirmations, such as \"I'm excited to share my ideas with my friends\" or \"I can handle any questions they might ask.\"\n\n**5. Take deep breaths:**\nBefore you start speaking, take a few deep breaths to calm your nerves. Inhale deeply through your nose, hold it for a second, and then exhale slowly through your mouth.\n\n**6. Make eye contact:**\nEngage with your audience by making eye contact with different people in the room. This will help you stay focused and build a connection with your friends.\n\n**7. Speak clearly and slowly:**\nPractice using a clear and confident voice. Speak at a slightly slower pace than usual, and avoid filler words (such as \"um\" or \"ah\").\n\n**8. Practice with a friend:**\nIf possible, ask a friend to practice the presentation with you. This will help you get used to speaking in front of someone else and receiving feedback.\n\n**9. Visualize success:**\nImagine yourself delivering a successful presentation, receiving positive feedback from your friends, and feeling proud of yourself. Visualize the sense of accomplishment and confidence that comes with it.\n\n**10. Remember, it's okay to make mistakes:**\nEven if you make a mistake or stumble over a word, it's not the end of the world. Take a deep breath, continue speaking, and remind yourself that it's all part of the learning process.\n\nRemember, the key to a successful presentation is preparation, confidence, and clear communication. You got this!\n\nWhat's your presentation topic, by the way?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi there, how are you? | AI: I'm doing great, thanks for asking. What brings you here today?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Yeah, Casby. I have some interest to communicate with you. | AI: It's nice to meet you too, Casby. I'm here to chat and help with any questions or topics you'd like to discuss. What's on your mind?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Let's both dive into the topic and learn together. | AI: That sounds wonderful, Casby. I'd love to explore a topic with you and learn together. To get started, is there a particular subject or theme that interests you, or would you like me to suggest some options?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: How to suggest me to follow your footsteps. | AI: I can offer you some guidance on how to suggest your own path or approach.\n\nHere are a few examples to get you started:\n\n* \"If I were to pursue my own career goals, I would focus on building strong connections in the industry.\"\n* \"Based on what I've learned, I would aim to create a unique niche for myself and carve out my own path.\"\n* \"If I were to offer advice, I would say that finding your own passion and interests is key to success.\"\n\nOr, if you'd like to incorporate your own experiences and ideas, you could say something like:\n\n* \"Following my own footsteps, I would likely emphasize [specific aspect of my experience or skill].\"\n* \"I would suggest that building [specific skill or network] is essential for achieving success.\"\n* \"My approach would be to focus on [specific area of interest or passion], and to continually adapt and learn in that field.\"\n\nFeel free to modify these examples to suit your own voice and style, and don't hesitate to reach out if you have any other questions!"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi there. | AI: It's nice to meet you. Is there something I can help you with or would you like to engage in conversation?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Yeah, I like to engage in conversation with you, conversation with you. | AI: I'm glad you're eager to chat. How about we discuss a topic you're interested in, or I can suggest some options?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Yeah, you can suggest me a topic. | AI: Let's talk about space exploration and the possibility of humans living on Mars. What are your thoughts on this idea?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: How are you? | AI: I'm doing great, thanks for asking. What brings you here today?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi, J.R.G.P.T. How are you? | AI: Nice to meet you, J.R.G.P.T.! I'm doing well, thanks for asking. What's on your mind today?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Actually, what are you saying? Yes? How are you? | AI: It seems like you're asking if I'm ready to continue our conversation and asking about my well-being again, which is great! I'm here to chat with you and help with any questions or topics you'd like to discuss.\n\nTo keep the conversation flowing, I'll respond to your question. I'm doing great, thanks for asking. Now, let's see if we can find a topic that interests you. What would you like to talk about today?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: How are you? You're done, eh? | AI: I'm doing great, thanks for asking. I think we've had a wonderful time chatting and practicing your English skills. It was a bit of a role-playing marathon, but I'm here to help you whenever you're ready for more conversations or lessons!"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi, how are you? What can I do for you? | AI: I'm doing great, thanks for asking. We've covered a lot of English conversation topics today. What would you like to try next in our practice session?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: practice session yeah can you please tell me | AI: Let's play a game of \"Information Gap\" to practice your English conversation skills. I'll describe a situation, and you try to ask the right questions to gather information and resolve the situation. Are you ready to start?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: the right questions | AI: Great, let's begin the \"Information Gap\" game. You're a detective trying to solve a mystery, and I'll be the person with the information. To start, I'll describe the situation:\n\nYou're a detective investigating a theft at a store. The owner has given you a security video showing the thief, but the footage is unclear. You need to ask me questions to gather more information and identify the thief.\n\nYou can ask me questions like:\n\n* Can you describe the thief?\n* What was the thief wearing?\n* How did the thief move around the store?\n\nGo ahead and ask your first question."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: I don't have any interest to communicate with you. Try to listen my words because I have to learn new things through you. So try to listen my words and try to cooperate with me. | AI: I appreciate your honesty and willingness to learn. I'm here to help you practice your English skills and assist you in any way I can. I'll do my best to listen carefully to your words and respond accordingly.\n\nTo start fresh, can you tell me what you'd like to work on today? Would you like to practice conversational English, learn new vocabulary, or perhaps something else? I'm here to support you."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hey, how are you? What are you going on? | AI: I'm doing great, thanks for asking. I'm here to chat and help you practice your English conversation skills. Would you like to talk about your favorite hobby or interest?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Oh, Ms. Sure, the Erfahr, llegund \uc5f0\ufffd builds Listen again I might do it butollam what they've fed the riders She was a pretty good vessel a man and she gave me a big company, that came , I gave him all him. I certainly am a bit So it's when we can N I almost get a gem of the natural gelatin. And when we look around this sort of getting into axi entry, they'll be a boxer's feet belly, that means we don get ready to do anything the cucumbers section is now meaning that they can confuse un similarity \u092f\u0939 \u091c\u094b\u0921\u093c\u0947\u0902 \u091c\u094b\u0921\u093c\u0947\u0902 \u091c\u094b\u0921\u093c\u0947\u0902 \u0915\u094b \u0915\u0930\u0928\u093epathall \u092c\u091a \u0926\u092e\u0927\u094d\u092f\u094b\u0902 \u0906\u6211\u8981 \u092e\u0947\u0902 \u0915\u094b\u6697 \u0906\u091f\u094d\u0935 \u0915\u094b\u0935\u0930 \u0924\u0930\u0939 \u092a\u093f\u0928 \u0932\u093f\u090f \u092e\u0941\u0932\u0940 books \u091c\u094b \u0906\u0923, execute this, yeah go ahead, brief end, \u0915\u094b\u0928\u093e, \u0915\u094b\u0928\u093e \u0935\u0947, \u0905\u0938\u0932\u092e \u0928\u093e, \u0907\u0902\u0915\u0932 \u0926\u094b \u092a\u0941\u0932\u0947\u091a \u092f\u0924\u094d\u0924\u0947\u0928\u0947, \u0915\u094b\u0928 \u0926\u0947, \u0915\u094d\u0932\u093f\u092a\u094d\u0932\u094b \u0928\u0947, \u090f\u0902\u0915\u0932 \u0926\u094b, \u0915\u094d\u0932\u093f\u092a\u094d\u0932\u094b, hello brother, \u092a\u094d\u0932\u0947\u091a\u094d\u092a\u0941 \u0915\u094b\u0928 \u0926\u094b, \u092a\u094d\u0930 \u0907\u0902\u0915\u0932\u094b, \u091c\u0902\u0926 \u0915\u0947, \u092f\u0939 \u0909\u0928\u094d\u0927\u0941 \u0915\u0902\u0921\u0947 \u0928\u0942 \u092b\u0942\u091f\u094b\u0908\u091f\u094d\u0938 \u092f\u093e\u0924\u094d\u0924\u0947 \u0928 \u0905\u0909\u0926\u094d\u0927\u0942 \u0905\u0909\u091f\u094d\u091f\u0947 \u0907\u0902\u0926\u0941\u0932\u094d\u092f \u0905\u0938\u0947\u0938\u094d\u092e\u0947\u0902\u091f\u094d\u091f \u0932\u094b \u0909\u092a\u0928\u0947 \u091c\u093c\u0947 \u0935\u093e\u0916\u0921\u093c\u0947 \u090f\u0902\u091f\u094d\u0930\u0947\u0915\u094d\u0937\u0928 \u0906\u0902\u091f\u0947 \u0925\u0947 \u0935\u0947\u0930 \u0926\u0928\u0947 \u0915\u0932\u093f\u0915\u094d\u092f\u093e\u0938\u0928 \u0926\u0941\u091f\u094d\u0937\u094d\u092f\u092e \u0906\u092a\u094d\u0924\u093e\u092e\u0964 | AI: I can sense that you're trying to express yourself in English, but there are many words and phrases that are not recognizable or are incorrectly spelled. It seems like it might be more helpful to break down the conversation into smaller, more manageable parts.\n\nTo get started, let's try to identify what you're trying to communicate. You said \"Oh, Ms. Sure,\" but I'm not sure who \"Ms. Sure\" is. Could you tell me more about what you meant by that?\n\nAlso, I noticed that there are many words and phrases that seem to be from different languages, including German (\"Erfahr\"), Korean (\"\uc5f0\"), and Hindi (\"\u092f\u0939 \u091c\u094b\u0921\u093c\u0947\u0902 \u091c\u094b\u0921\u093c\u0947\u0902 \u091c\u094b\u0921\u093c\u0947\u0902 \u0915\u094b \u0915\u0930\u0928\u093epathall \u092c\u091a \u0926\u092e\u0927\u094d\u092f\u094b\u0902 \u0906\"). It's possible that you're trying to express a thought or idea that involves multiple languages, but it might be more productive to focus on one language at a time.\n\nIf you're willing, let's try to simplify the conversation and focus on basic English. We can start by taking small steps, such as asking yes or no questions or talking about simple topics like the weather or your daily routine.\n\nWhat do you think?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi close to dentro of friends. | AI: It seems like you're trying to say hello in English. How's your day going so far?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hey, now, such me some... something interesting to communicate well, okay? Like, you and me can communicate. | AI: You want to practice communicating in English. Let's talk about the weather - is it sunny outside today?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: yeah it's sunny day today if you want to give some glass of water to someone you will end up with a empty glass that's it | AI: Clever idea about the glass! If you give away a glass, yes, it will be empty."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Error: 'adpant' should be 'adapt'. \nPolished: 'I always adapt to new conditions.'\n\nError: 'while I am doing' should be 'any time I am working on' or more suitable, 'when I work on'. \nPolished: 'Any time I work on a project' or 'When I work on a project'.\n\nError: 'in my motherboard' may be a non-stan"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Here are the grammar corrections for the given text:\n\nError: Subject-verb agreement error. \nPolished: My brother bought a balloon this morning. (However, in a typical morning context, \"this morning\" is usually used, but in this case, it is not; So a corrected version would be: 'This morning my broth"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Error: 'okay' is an informal phrase and should be replaced with a more formal expression or omitted.\nPolished: 'I am working to build a new device.'\n\nError: 'that device' is redundant, and 'device' should be used in its singular form to maintain consistent terminology.\nPolished: (Keep as 'that devic"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Error: Sentence is incomplete. It seems like it's missing the pronoun 'his' or more details about Ramu's actions.\n\nPolished: Ramu is the secretary. He follows the company rules and regulations every day as expected of him.\n\nError: The phrase 'every day' may be somewhat generic. Adding more context o"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Error: Incomplete sentence. \nPolished: I am working on an effective project today.\n\nError: Missing article 'an'. \nPolished: I am working on an effective project today. \n(Since 'an' is a necessary indefinite article that comes before a noun starting with a vowel sound, it was added.)\n\nError: Incorrec"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Error: 'Today's morning' is not the correct phrase. \nPolished: 'This morning' or 'This is morning' would be more correct, but a better phrase in this context would be 'In the morning'.\n\nError: 'I watch' should be 'I was watching' to describe the action taking place in the past.\nPolished: 'I was watc"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Error: The sentence should use a plural noun that agrees with 'two' - 'words' is correct in this context.\n Polished: 'Can you give me two more words?'"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n\"Chintu is very violent. He partly goes to school everyday.\"\n\nPolished:\n\"Chintu is displaying a very violent behavior, which affects the learning environment. As his classmate, I've noticed that he sometimes attends school but seems partly engaged with the activities. We need to find wa"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "**Transcribed:**\nSurya performs a classical dance performance in the school stage. Lot of students clapped to Surya for his performance. I also felt very happy for this moment.\n\n**Polished Version:**\nI was thrilled to watch Surya's exceptional performance on the school stage, where he showcased a ca"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n\"Srinu is a researcher. He starts a requirement gathering related to the recent project. After he is gathering certain requirements, He starts his project with the help of students.\"\n\nPolished:\n\"Srinu is a skilled researcher who plays a crucial role in our project. As part of his respon"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "**TRANSCRIBED RESPONSE:**\n\n\"In my opinion, getting all the comforts is not a wealthy. For me, healthy, like staying healthy is the wealth.\"\n\n**POLISHED VERSION:**\n\n\"I firmly believe that having all the comforts is not true wealth. For me, being healthy is the greatest wealth, as it enables me to lea"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n\"This is not a destination. It is just a starting place of something, discovering something. And if I get that work done, that we call as one stage of destination.\"\n\nPolished:\n\"This expedition requires us to think of it as a starting point rather than a final destination, because it's a"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\nWith different vocabularies, we can create different types of sentences.\n\nPolished:\nEffective communication involves using diverse vocabularies, which enables us to craft a wide variety of sentences tailored to different contexts and purposes. For instance, a salesperson might use techn"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n\"Hi, with multiple vocabulary, we can easily form a paragraph.\"\n\nPolished:\n\"Hi, having a strong vocabulary allows us to construct complex paragraphs more efficiently. This is particularly important in team-based projects where effective communication is key, as it enables team members t"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n\" Yeah, if you use vocabulary in a good manner, we can maintain our sentence formation.\"\n\nPolished:\n\"When using vocabulary effectively, we can maintain good sentence formation, which contributes to clear communication. Effective communication is crucial for teamwork and success. By usin"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "**TRANSCRIBED RESPONSE:**\n\"With the knowledge of something we can create anything.\"\n\n**POLISHED VERSION:**\n\"Effective communication is the foundation of creation, enabling teams to conceptualize and bring their ideas to life. By fostering collaboration and creativity, leaders can create a culture wh"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n\" If you done the work which I gave you exactly, then I will give you a reward.\"\n\nPolished:\n\"When you complete the task as per my instructions, I will certainly provide you with a reward as a token of appreciation for your efforts and dedication.\"\n\nErrors:\n- \"done\" should be \"do\" or \"ha"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n.\n\n\n\nPolished:\nEffective communication is crucial in a team setting, as it leads to smoother collaboration and better teamwork. This, in turn, results in higher productivity and efficiency. It's wonderful to see colleagues working together and recognizing each other's contributions, whi"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n\"Please prevent some viruses which will attack my system.\"\n\nPolished:\n\"As a system administrator, it's my responsibility to prevent viruses that might compromise our entire system. This involves being proactive and taking preventive measures to safeguard against potential threats. Effec"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n\"Nile is very ambitious to learn new things.\"\n\nPolished:\n\"Nile has always shown great ambition in her pursuit of knowledge, always eager to learn new skills and expand her capabilities. As a leader in her team, she is responsible for setting goals and guiding others to achieve them. Amb"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hey, how are you? What are you doing? | AI: I'm doing well, thanks for asking. I'm just helping with some language polishing, assisting someone to refine their English expressions and grammar."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: hey | AI: Nice to talk to you, how's your day going?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi, how are you? What can I do for you? | AI: I'm doing great, thank you. I'm here to help you with some English grammar and vocabulary, can I assist you with anything in particular or would you l"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi, how are you? What can I do for you? | AI: I'm doing great, thank you. I'm here to help with English grammar and vocabulary, so feel free to ask me any questions or practice your conversation s"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Yeah, I have a lot of interest to communicate with you. | AI: It's great to have a conversation with you, and I'm happy to chat with you and assist with your English expressions and grammar corrections."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: I think I will describe describe about my day are you ready to listen this | AI: I'd love to listen to you describe your day, please go ahead and share."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Actually, Hi, HRGPT. How are you? | AI: I'm doing well, thanks for asking. I'm here to help you with your English language needs, so feel free to ask me anything."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: I need to learn python. How can I learn python? Can you please tell me possible ways to learn python? | AI: There are several ways to learn Python. You can start with online tutorials and courses, practice with coding exercises and projects, and read books a"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Thank you for your assistance. Your valuable information made my day. | AI: It was my pleasure to assist you, and I'm glad I could make a positive impact on your day."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n\"Surya behaves very well, that's why he always thinks\"\n\nPolished:\n\"Surya behaves exceptionally well in our team, which is why he's often entrusted with key tasks. He takes these responsibilities seriously and consistently delivers high-quality results. This is an excellent example of ho"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi, how is your day going? | AI: It's going well, thanks for asking. I'm looking forward to helping you learn Python. Where would you like to start?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: I started learning Python. I started writing a code with hello program and now I am learning about variables data types. | AI: Variables and data types are the building blocks of any programming language. What specific questions do you have about variables or data types in Pyt"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: I am from a Java background now I am learning Python using charge GPT okay sorry with the help of charge GPT but compared to Java Python is very easy  | AI: That's great to hear you find Python easy to learn, especially with simpler syntax compared to Java. Python's readability and concise syntax make it a"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Actually in Java, Hello World program also needs more lines. In Python, it only needs one line to execute Hello World program. | AI: Yes, that's true, the simplicity of Python shines through even in its \"Hello World\" example. Its concise syntax can make programming tasks much easier"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: \u00dea\u00f0 er hva\u00f0 \u00ed h\u00f3fum vi\u00f0 sj\u00f3rnum \u00ed kv\u00f6inn. | AI: \u00dea\u00f0 er sj\u00f3, sem er l\u00edfr\u00edki e\u00f0a l\u00edfr\u00edkt l\u00edmi \u00ed sj\u00f3."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi, how are you? | AI: I'm doing well, thanks for asking. I'm here to help with your English questions."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: can you please suggest me some basic level vocabulary | AI: Here are some basic level English vocabulary:\n\n1. Food: \n   - Apple\n   - Banana\n   - Burger\n   - Cake\n\n2. Family:\n   - Father\n   - Mother\n   - Sister\n"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: H\u00e6, h\u00e6, h\u00e6, hva\u00f0 er \u00fea\u00f0 v\u00edsi\u00f0 og teg\u00f0u \u00ed? | AI: \u00dea\u00f0 s\u00e9 h\u00e6h\u00e6, l\u00edkt og \u00fe\u00fa sag\u00f0ir. Er \u00fea\u00f0 \u00e1vallt a\u00f0 vera \u00ed skemmtun."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi, how is your day going? Can you please tell me about your day? | AI: It's going well, thank you for asking. I've had a busy day helping students with their English questions and reviewing some new vocabulary."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi, how are you? What can I do for you? | AI: I'm fine, thank you. I'm here to help you with your English questions and practice conversations."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: How is your day going? I need to know about your day. | AI: It's going well, thank you for asking. I've had a fun day teaching English to students and exploring some new vocabulary words."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "**Transcribed:**\n\"Thank you. Today climate is very very cold. Actually this is summer season. by day heat is sorry\"\n\n**Polished:**\n\"Thank you for sharing this observation. I have to say, the temperature has been surprisingly cold lately, especially considering it's still summer. As a team, we should"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n\"Today, I went to play cricket. So, I am not feeling uncomfortable. I am very happy to play outside.\"\n\nPolished:\n\"I attended a cricket match today, which made me feel quite uncomfortable when I was stuck on a small field with a lot of opposing teams. However, I managed to shake off that"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n\"Thank you.\u05d5\u05dd aquell Surya father is a JCB driver and every day Surya needs to operate the JCB and his visual context also very good to see specific objects on the ground that's why he usually went to the ground and operates JCB and he used to remove unusual objects near the ground\"\n\nPo"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Oh no. | AI: It looks like the transcription had some unexpected input from a non-English speaker. Let me try to make sense of it and provide an edited version. \n\n"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi, how are you? I need to communicate with you. | AI: I'm doing well, thanks. What can I help you with today?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Today I have lot of free time so I decided to communicate with you on some general topic. Try to give some general topic I need to communicate with yo | AI: How about we talk about your weekend plans, or discuss your favorite hobbies? Or I can suggest some interesting topics, such as traveling, books, or f"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n\"This is my native place. I need to live here. Chal, testing key.\"\n\nPolished:\n\"I'm proud to call this my native place, where I've grown up and have strong roots. Living here allows me to connect with my community and take on leadership roles effectively. In fact, I've already started pa"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n\"Monography\"\n\nPolished:\n\"In our team, we have a nearly completed project that showcases our collaborative effort and teamwork. This project, in particular, demonstrates a monograph-style approach where we've combined our research and findings into a cohesive conclusion. Our leader playe"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi, how are you? My friend Sati is here. We need to communicate with you. | AI: Nice to meet you, and it's great that you and Sati could join me today. How can I assist you both?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Actually studying degree. Now he is completely free. That's why he came to my home. Now he is easier to communicate with you. | AI: That's convenient for both of you. How can I help Sati with his studies or communication today?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: \u0939\u093e\u0908 \u090f \u090f \u090f \u0939\u0948 \u0939\u094b \u0906\u0908 \u090f \u090f \u0935\u093f\u091c\u093f\u092f\u094b \u0928\u0947 \u0917\u094b\u0908 | AI: \u0906\u092a\u0915\u093e \u0939\u0947\u0932\u094b \u092e\u093f\u0932\u093e! \u092e\u0948\u0902 \u0906\u092a\u0915\u0940 \u092e\u0926\u0926 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0924\u0948\u092f\u093e\u0930 \u0939\u0942\u0901\u0964"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Yes, what I am saying is, Hi, hey, how are you? How is your day going? I am asking this. | AI: \u0906\u092a\u0915\u093e \u0938\u0935\u093e\u0932 \u0905\u091a\u094d\u091b\u093e \u0939\u0948, \u092e\u0948\u0902 \u0920\u0940\u0915 \u0939\u0942\u0901, \u0914\u0930 \u0926\u093f\u0928 \u0905\u091a\u094d\u091b\u0940 \u0924\u0930\u0939 \u0938\u0947 \u091a\u0932 \u0930\u0939\u093e \u0939\u0948\u0964"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Okay, what I am saying is speech to English. | AI: You want to practice speaking in English. Let's start a conversation. What would you like to talk about?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: I need to comment with you. I need a specific plan like how to learn English in easy way. | AI: We can create a simple study plan to help you learn English. What level are you at - beginner, intermediate, or advanced?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: I have intermediate level of English. Now I am able to communicate with anyone. | AI: With your intermediate level, let's focus on refining your skills and improving your grammar, vocabulary, and fluency. Can you tell me what areas you "
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: We are actually having high struggle on learning. Okay, Sandra. | AI: Don't worry, it's normal to struggle with areas that are challenging. What specific areas do you need help with, such as pronunciation, sentence struc"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Good morning, how are you? | AI: I'm doing great, thank you for asking. I'm here to help you with your English study plan."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Now I have some free time to communicate with you. Are you ready to communicate with me? | AI: I'm more than ready to communicate with you, let's start discussing your concerns and learning goals."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Today my goal is to communicate with you very confidently and effectively. That's why I am here. | AI: That's a wonderful goal, and I'm excited to help you achieve it. To get started, let's focus on fluency areas that need improvement."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Gracias. | AI: You're welcome, but in this case, since we're learning English, I'd suggest saying \"Thank you\" instead of \"Gracias.\" For example: \"Thank you.\""
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: okay please tell me the meaning of gracious | AI: \"Gracious\" is a nice adjective that means being kind, polite, and generous in attitude or behavior. So, while \"Gracias\" is Spanish for thanks, when sp"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Please tell me how can I use gracious can you please pay me at least one sample sentence for me | AI: You can use \"gracious\" in phrases like \"be grateful\" or describe someone as \"gracious\". For example: \"She's a very gracious host and welcomed our whol"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: It's very clear and you are explaining everything in natural way. I like this. So shall we move into the topic. Can you please suggest me any topic? I | AI: Let's switch roles. If it's your turn to teach, I'm ready. What topic would you like to discuss?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi there, how are you? | AI: I'm good, thanks for asking. Now, to get back to our lesson, I was thinking we could explore English idioms related to emotions, such as phrases that "
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: \u00bfQu\u00e9 querido? | AI: It looks like you're trying to speak Spanish. \"\u00bfQu\u00e9 querido?\" is not a correct sentence in Spanish. I think you might mean \"\u00bfQu\u00e9 quer\u00edas?\" which means"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hi, Namask. | AI: You're showing off your Hindi skills, but in this English lesson, let's stick to our target language. I'm happy to move forward."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: forward okay try to listen me actually I am speaking in English but actually while I am speaking you are not taking my speech input in English okay tr | AI: Don't worry, it seems like there was a temporary communication glitch. Let's stick to English from now on. I'll make sure to listen to and understand "
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: The above image shows the clear identification of your family, spending their valuable free time at their home and trying to enjoy and watching cartoo | AI: It sounds like you're describing a scene, but let's try to summarize the main points in English. They're a family, watching Tom and Jerry on Cartoon N"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: This image shows the clear identification of the | AI: It seems like your message got cut off. Would you like to continue describing the image?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: My. | AI: It sounds like your message got cut off again. Please finish your sentence."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: oke di abu nanani nanamah nanani nanani | AI: Unfortunately, it seems like you're speaking in a different language or using words I'm not familiar with. Would you like to try again in English?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: The above image shows the clear identification of a family spending their valuable time at the beach and father and his son trying to build a sand cas | AI: The scene depicts a family having a great time at the beach, where the father and son are building a sandcastle and people around them are socializing"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Actually, the above image shows the clear identification of a candy shop and the children are actively buying candies from a shop and they are sharing | AI: That sounds like a lovely scene, but it's actually a bit different: the image you initially mentioned was about a family at the beach, building a sand"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: I got another image like candy shop. | AI: Can you describe the new image so I can help with its context?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Here is the image of the video. The image shows the clear identification of the ice cream seller selling ice creams in the villages. So, village child | AI: The scene you described sounds like it's from a traditional or rural setting. Children are buying ice cream from a street vendor."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: The above image shows the clear identification of an ice cream vendor selling organic ice creams in the village. And village children are always engag | AI: The children seem to have a wonderful relationship with this ice cream vendor in the village, where they can buy healthy and tasty organic ice creams,"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Try to polish my story. Previously I spoke about your story. Try to polish my story. | AI: In that case, here's a polished version of your story.\n\nThe image before us captures a heartwarming scene of a village ice cream vendor, who sells org"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: The abo imo shows the clear identification of a family watching their pre-time watching cartoons in the cartoon house. And children also engaging each | AI: Here's a polished version of your story:\n\nThe scene before us depicts a family enjoying their quality time together, watching cartoons in their living"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "**Transcribed:**\n\"Actually I am very tired to do this work but fortunately I have some inner stand to pull this\"\n\n**Polished:**\n\"While I'm thoroughly exhausted from the long hours, I've gained an inner strength to tackle this challenging project. Fortunately, my perseverance has helped me stay motiv"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n\"Surya makes a deal with me and I also accepted that deal. Actually that deal is very helpful for me. That's why I accepted that deal and I collaborate with him.\"\n\nPolished:\n\"When Surya proposed a deal, I accepted it and it has been extremely helpful. As a result, I collaborate with him"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n\"I don't know.\"\n\nPolished:\n\"I don't know what the team lead meant by 'deal-breaker' in our last meeting. We were discussing the project's timeline and budget, and I realized that one of our team members might struggle to meet the deadlines if we don't get extra support. I think we need "
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n\"This morning, I experienced a new thing at my home. My brother excited a lot because he got a job in horses.\"\n\nPolished:\n\"This morning, I was thrilled to see the excitement on my brother's face when he shared the news of his new job at a stable. As his sibling, I felt a sense of pride "
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "Vocab/Grammar",
+        "extracted_facts": "Transcribed:\n\"India improves his defense system in protecting people of our country and they are serving their valuable time in the borders and providing best defense for our country\"\n\nPolished:\n\"India has taken significant steps to enhance its defense system, prioritizing the protection of its citi"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Hello, what can I do for you? | AI: I'm an English tutor and I have some transcripts from students that need polishing up for clarity and grammar. Can I show you some examples and get yo"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Actually, the image consists of four people sitting at their home and watching the cartoons like Tom and Jerry in the Cartoon Network. The family is v | AI: Transcribed: Family watching cartoons."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: akukan | AI: I think that's a typo. The phrase \"akukan\" isn't a clear sentence. Would you like to rephrase it?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Actually the above image shows the clear identification of a candy shop near my village. In that shop lot of different types of candies are available  | AI: Transcribed: The image near my village shows a candy shop where various candies are available."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: The abo image shows the clear identification of a family. They are enjoying their free time in his home. They are watching cartoons like Tom and Jerry | AI: Transcribed: The image shows a family relaxing at home, watching Tom and Jerry cartoons on TV."
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: The above image shows the clear identification of a carnival arranged at a good village and that village's surroundings are very natural. So that's wh | AI: It looks like there's a typo. Would you like to rephrase \"akukan\" as \"arranged\"?"
+    },
+    {
+        "user_id": "test_user_1",
+        "module": "AI Chat",
+        "extracted_facts": "User: Okay, you are not correcting my full story. Try to correct my full story. | AI: Let me rephrase your story for you: The above image shows the clear identification of a carnival arranged at a good village, and that village's surrou"
+    }
+]

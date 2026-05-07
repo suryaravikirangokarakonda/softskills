@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+ENV/
+
+# Documents and Media
+*.pdf
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.mp4
+*.mp3
+*.wav
+*.jpeg
+*.jpg
+*.png
+*.gif
+*.zip
+*.7z
+*.rar
+*.exe
+*.msi
+
+# IDEs
+.vscode/
+.idea/

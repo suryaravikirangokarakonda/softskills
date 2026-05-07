@@ -1,0 +1,28 @@
+name: softskill_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  audioplayers: ^6.6.0
+  flutter:
+    sdk: flutter
+  google_fonts: ^8.1.0
+  http: ^1.6.0
+  intl: ^0.20.2
+  path_provider: ^2.1.5
+  record: ^6.2.0
+  supabase_flutter: ^2.12.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
