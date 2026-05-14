@@ -1,4 +1,4 @@
-name: 3-Day Dashboard Refresh
+name: Daily Dashboard Refresh
 on:
   schedule:
     # Runs daily at midnight UTC

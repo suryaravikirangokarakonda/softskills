@@ -56,7 +56,7 @@ class PerformanceTracker:
             last_update = datetime.fromisoformat(last_update_str.replace('Z', '+00:00'))
             
             time_diff = datetime.now(timezone.utc) - last_update
-            return time_diff >= timedelta(days=3)
+            return time_diff >= timedelta(days=1)
         except Exception as e:
             logger.error(f"Error checking due date for {user_id}: {e}")
             return True
