@@ -56,7 +56,8 @@ class PerformanceTracker:
             last_update = datetime.fromisoformat(last_update_str.replace('Z', '+00:00'))
             
             time_diff = datetime.now(timezone.utc) - last_update
-            return time_diff >= timedelta(days=1)
+            # We use max(0, seconds) to handle cases where clock drift makes the diff negative
+            return time_diff.total_seconds() >= timedelta(days=1).total_seconds()
         except Exception as e:
             logger.error(f"Error checking due date for {user_id}: {e}")
             return True
@@ -88,9 +89,14 @@ class PerformanceTracker:
             return {}
 
         prompt = f"""
-        Analyze this {module_type} transcript. 
+        Analyze this {module_type} transcript for a student aged 10-16. 
         Evaluate: Grammar, Vocabulary, and Clarity.
         Return ONLY a JSON with scores 1.0 to 10.0.
+        
+        CRITICAL: 
+        - Use ONLY numbers (floats). 
+        - NEVER use 'N/A', 'null', or strings. 
+        - If data is missing or empty, return 0.0 for that score.
         
         Keys:
         - For 'vocabulary': {{"vocabulary_score": X.X, "sentence_formation_score": X.X}}
@@ -101,6 +107,8 @@ class PerformanceTracker:
         {transcript}
         """
 
+        import time
+        time.sleep(2) # Avoid 429 Rate Limits
         try:
             response = groq_client.chat.completions.create(
                 model=self.model_name,
@@ -127,22 +135,52 @@ class PerformanceTracker:
             logger.info(f"🔍 Analyzing User: {uid}")
             user_scores = {}
 
-            # Gather and analyze data from all 3 modules
+            # 1. Vocabulary & Sentence Formation (from sentence_logs)
             user_scores.update(self.get_analysis_scores(self.fetch_module_data(uid, "sentence_logs"), "vocabulary"))
-            user_scores.update(self.get_analysis_scores(self.fetch_module_data(uid, "conversation_logs"), "interaction"))
+            
+            # 2. AI Interaction (Combined from conversation_logs and role_play_logs)
+            conv_data = self.fetch_module_data(uid, "conversation_logs")
+            role_data = self.fetch_module_data(uid, "role_play_logs")
+            combined_interaction = f"Conversation:\n{conv_data}\n\nRole Play:\n{role_data}"
+            user_scores.update(self.get_analysis_scores(combined_interaction, "interaction"))
+            
+            # 3. Image Narration (from image_narration_logs)
             user_scores.update(self.get_analysis_scores(self.fetch_module_data(uid, "image_narration_logs"), "narration"))
 
+            # Whitelist of valid columns in user_performance_history
+            valid_columns = {
+                "vocabulary_score", 
+                "sentence_formation_score", 
+                "image_narration_score", 
+                "ai_interaction_score"
+            }
+
             if user_scores:
-                cleaned = {k: round(float(v), 1) for k, v in user_scores.items() if v is not None}
+                cleaned = {}
+                for k, v in user_scores.items():
+                    if k not in valid_columns: continue
+                    if v is None: continue
+                    try:
+                        # Extract score if AI returned a nested object like {"score": 8.5}
+                        if isinstance(v, dict):
+                            val = v.get('score') or list(v.values())[0]
+                            cleaned[k] = round(float(val), 1)
+                        else:
+                            cleaned[k] = round(float(v), 1)
+                    except (ValueError, TypeError, IndexError):
+                        logger.warning(f"Skipping invalid score for {k}: {v}")
                 
-                try:
-                    cleaned["user_id"] = uid
-                    cleaned["created_at"] = datetime.now(timezone.utc).isoformat()
-                    
-                    supabase.table(self.history_table).insert(cleaned).execute()
-                    logger.info(f"✅ Success: Dashboard updated for {uid}")
-                except Exception as e:
-                    logger.error(f"❌ DB Error for {uid}: {e}")
+                if cleaned:
+                    try:
+                        cleaned["user_id"] = uid
+                        cleaned["created_at"] = datetime.now(timezone.utc).isoformat()
+                        
+                        supabase.table(self.history_table).insert(cleaned).execute()
+                        logger.info(f"✅ Success: Dashboard updated for {uid}")
+                    except Exception as e:
+                        logger.error(f"❌ DB Error for {uid}: {e}")
+                else:
+                    logger.warning(f"⚠️ No valid scores to save for {uid}")
 
         logger.info("🏁 Pipeline Execution Completed.")
 
