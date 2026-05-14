@@ -66,7 +66,7 @@ class PerformanceTracker:
         try:
             user_col = "user_input" if "image" in table_name else "user_message"
             ai_col = "ai_output" if "image" in table_name else "ai_message"
-            date_col = "created_date" if "image" in table_name else "created_at"
+            date_col = "created_at"
             
             response = supabase.table(table_name)\
                 .select(f"{user_col}, {ai_col}")\
