@@ -1,8 +1,8 @@
 name: Daily Dashboard Refresh
 on:
   schedule:
-    # Runs daily at midnight UTC
-    - cron: '0 0 * * *'
+    # Runs daily at 11:00 PM IST (5:30 PM UTC)
+    - cron: '30 17 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
